@@ -9,7 +9,7 @@ install_requires = parse_requirements("requirements.txt", session="aws_creds_rep
 
 setup(
     name="aws_creds_replace",
-    version="0.0.1",
+    version="0.0.3",
     author="Traey Hatch",
     author_email="thatch@newmathdata.com",
     url="https://github.com/trejas/aws_creds_replace.git",

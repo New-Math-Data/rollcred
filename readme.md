@@ -1,13 +1,16 @@
 # Summary
+
 A package to help replace AWS credentials from the sso window. When you click
 on an AWS credential, the text is copied to the clipboard. This package reads
 the clipboard buffer and replaces the correct profile credentials in your
 `~/.aws/credentials` file.
 
 ## Installation
-`pip install aws_creds_replace`
+
+`pip install rollcred`
 
 ## Usage
+
 Goto to your AWS SSO login screen. Select the account and profile you would like to roll
 credentials for, click on the link that says `command line or programmatic access`.
 Under the section labeled **Option 2** click the box with the credentials. Clicking

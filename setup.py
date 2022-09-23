@@ -13,7 +13,7 @@ except:
 
 setup(
     name="rollcred",
-    version="0.0.4",
+    version="0.0.5",
     author="Traey Hatch",
     author_email="thatch@newmathdata.com",
     url="https://github.com/New-Math-Data/rollcred.git",

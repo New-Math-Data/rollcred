@@ -10,7 +10,6 @@ class BadClipboardContentsError(Exception):
 
 def get_clip_input():
     split_input = []
-    # clip_input = xerox.paste(xsel=True)
     clip_input = pyperclip.paste()
 
     split_input = clip_input.splitlines()
